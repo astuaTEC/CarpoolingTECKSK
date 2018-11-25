@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">StudentApp</string>
+    <string name="facebook_app_id">322944998436602</string>
+    <string name="fb_login_protocol_scheme">fb322944998436602</string>
+    <string name="salir">Salir</string>
+    <string name="title_activity_student">Student</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textview">TextView</string>
+    <string name="bienvenido_a_carpoolingtec">Bienvenido a CarpoolingTEC</string>
+    <string name="algo">algo</string>
+    <string name="share">Share</string>
+    <string name="scan">Scan</string>
+    <string name="amigos">Amigos</string>
+    <string name="cerrar_sesi_n">Cerrar Sesión</string>
+    <string name="communicate">Communicate</string>
+    <string name="send">Send</string>
+    <string name="navegar">Navegar</string>
+    <string name="todo">TODO</string>
+    <string name="switch1">Switch</string>
+    <string name="escanear">Escanear</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

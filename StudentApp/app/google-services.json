@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "264152906554",
+    "firebase_url": "https://notificacion-282d5.firebaseio.com",
+    "project_id": "notificacion-282d5",
+    "storage_bucket": "notificacion-282d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264152906554:android:f474c69207d1b144",
+        "android_client_info": {
+          "package_name": "com.example.dell.studentapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264152906554-lp8c8lci43e718it45rble2sbd4fflq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8Qy2Azco7LfVGCZcsCdhiL75QsPVqdi4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

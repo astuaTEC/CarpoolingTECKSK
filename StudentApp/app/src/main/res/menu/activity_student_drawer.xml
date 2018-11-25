@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Scan" />
+        <item
+            android:id="@+id/navegar"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Navegar" />
+        <item
+            android:id="@+id/amigos"
+            android:icon="@drawable/com_facebook_button_icon"
+            android:title="Amigos" />
+        <item
+            android:id="@+id/sesion"
+            android:icon="@android:drawable/ic_delete"
+            android:title="Cerrar sesión" />
+        <item
+            android:id="@+id/opciones"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Opciones" />
+    </group>
+
+
+    <item android:title="Otros">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@android:drawable/btn_star_big_on"
+                android:title="Calificar" />
+            <item
+                android:id="@+id/api"
+                android:icon="@android:drawable/btn_default"
+                android:title="API" />
+        </menu>
+    </item>
+
+</menu>

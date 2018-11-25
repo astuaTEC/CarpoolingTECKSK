@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "452986272147",
+    "firebase_url": "https://driver-app-e0ddb.firebaseio.com",
+    "project_id": "driver-app-e0ddb",
+    "storage_bucket": "driver-app-e0ddb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452986272147:android:24d1427641323743",
+        "android_client_info": {
+          "package_name": "com.example.dell.driverapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452986272147-ta46q4da89jpbitttiq6ddspishegnav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApioKuF47y8BY6UIjXd11pIuxt3clk8Rk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

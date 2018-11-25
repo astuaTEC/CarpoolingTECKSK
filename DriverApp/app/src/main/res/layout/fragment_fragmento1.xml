@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contenedor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context=".Fragmentos.Fragmento2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/registro"
+        android:layout_width="125dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="168dp"
+        android:backgroundTint="@color/com_facebook_device_auth_text"
+        android:text="Registrar Carnet"
+        android:textColor="@color/com_facebook_button_background_color_focused"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/amigos" />
+
+    <Button
+        android:id="@+id/escaneo"
+        android:layout_width="235dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/com_facebook_button_background_color_disabled"
+        android:text="@string/escanear"
+        android:textColor="@color/com_facebook_button_background_color_focused"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.554" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="200dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="1dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAlignment="center"
+        android:textColor="@color/zxing_status_text"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/escaneo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Código" />
+
+    <Button
+        android:id="@+id/amigos"
+        android:layout_width="125dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="168dp"
+        android:backgroundTint="@color/com_facebook_device_auth_text"
+        android:text="Agregar Amigo"
+        android:textColor="@color/com_facebook_button_background_color_focused"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/registro"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
